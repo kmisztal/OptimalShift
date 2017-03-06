@@ -1,4 +1,4 @@
-package pl.edu.misztal.OptimalShift.image;
+package pl.edu.misztal.OptimalShift.image.ui;
 
 
 import javax.swing.*;
@@ -19,7 +19,7 @@ public final class ImageFrame extends JFrame {
 
     public ImageFrame(String title) {
         super();
-        LookAndFeel.doIt();
+        pl.edu.misztal.OptimalShift.image.ui.LookAndFeel.doIt();
         EscapeClose.doIt(this);
 
         imageView = new ResizableImagePanel();
@@ -53,12 +53,12 @@ public final class ImageFrame extends JFrame {
 
     }
 
-    public ImageFrame(Image image) {
+    public ImageFrame(pl.edu.misztal.OptimalShift.image.Image image) {
         this();
         imageView.setImage(image.getBufferedImage());
     }
 
-    public ImageFrame(String title, Image image) {
+    public ImageFrame(String title, pl.edu.misztal.OptimalShift.image.Image image) {
         this(title);
         imageView.setImage(image.getBufferedImage());
     }
@@ -67,12 +67,12 @@ public final class ImageFrame extends JFrame {
         this("");
     }
 
-    public static void display(Image img) {
+    public static void display(pl.edu.misztal.OptimalShift.image.Image img) {
         ImageFrame i = new ImageFrame(img);
         i.display();
     }
 
-    public static void displayCopy(Image img) {
+    public static void displayCopy(pl.edu.misztal.OptimalShift.image.Image img) {
         display(img.copy());
     }
 

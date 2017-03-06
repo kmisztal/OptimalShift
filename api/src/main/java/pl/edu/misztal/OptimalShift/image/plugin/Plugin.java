@@ -1,5 +1,7 @@
-package pl.edu.misztal.OptimalShift.image;
+package pl.edu.misztal.OptimalShift.image.plugin;
 
+
+import pl.edu.misztal.OptimalShift.image.Image;
 
 /**
  * @author Krzysztof

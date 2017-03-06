@@ -5,15 +5,14 @@
  */
 package pl.edu.misztal.OptimalShift;
 
-import java.util.ArrayList;
-import java.util.Arrays;
-import java.util.List;
 import org.ejml.simple.SimpleMatrix;
-import pl.edu.misztal.OptimalShift.Cluster;
-import pl.edu.misztal.OptimalShift.image.Grayscale;
 import pl.edu.misztal.OptimalShift.image.Image;
-import pl.edu.misztal.OptimalShift.image.ImageFrame;
-import pl.edu.misztal.OptimalShift.image.Plugin;
+import pl.edu.misztal.OptimalShift.image.plugin.Grayscale;
+import pl.edu.misztal.OptimalShift.image.plugin.Plugin;
+import pl.edu.misztal.OptimalShift.image.ui.ImageFrame;
+
+import java.util.ArrayList;
+import java.util.List;
 
 import static pl.edu.misztal.OptimalShift.Main.print;
 

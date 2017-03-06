@@ -7,7 +7,7 @@ package pl.edu.misztal.OptimalShift;
 
 
 import pl.edu.misztal.OptimalShift.image.Image;
-import pl.edu.misztal.OptimalShift.image.ImageFrame;
+import pl.edu.misztal.OptimalShift.image.ui.ImageFrame;
 
 /**
  *

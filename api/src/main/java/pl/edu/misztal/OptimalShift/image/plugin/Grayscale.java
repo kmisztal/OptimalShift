@@ -1,5 +1,7 @@
-package pl.edu.misztal.OptimalShift.image;
+package pl.edu.misztal.OptimalShift.image.plugin;
 
+
+import pl.edu.misztal.OptimalShift.image.Image;
 
 import java.awt.color.ColorSpace;
 import java.awt.image.ColorConvertOp;
@@ -7,7 +9,7 @@ import java.awt.image.ColorConvertOp;
 /**
  * @author Krzysztof
  */
-public class Grayscale extends Plugin  {
+public class Grayscale extends Plugin {
 
     @Override
     public void process(Image imgIn, Image imgOut) {

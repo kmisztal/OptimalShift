@@ -6,9 +6,9 @@
 package pl.edu.misztal.OptimalShift;
 
 import pl.edu.misztal.OptimalShift.image.Image;
-import pl.edu.misztal.OptimalShift.image.ImageFrame;
+import pl.edu.misztal.OptimalShift.image.ui.ImageFrame;
 
-import java.awt.Color;
+import java.awt.*;
 import java.nio.file.Files;
 import java.nio.file.Path;
 import java.nio.file.Paths;

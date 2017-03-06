@@ -5,13 +5,13 @@
  */
 package pl.edu.misztal.OptimalShift;
 
-import java.awt.Color;
-import java.util.ArrayList;
-import java.util.Arrays;
-import java.util.List;
 import org.ejml.simple.SimpleMatrix;
 import pl.edu.misztal.OptimalShift.image.Image;
-import pl.edu.misztal.OptimalShift.image.ImageFrame;
+import pl.edu.misztal.OptimalShift.image.ui.ImageFrame;
+
+import java.awt.*;
+import java.util.ArrayList;
+import java.util.List;
 
 import static pl.edu.misztal.OptimalShift.Main.print;
 

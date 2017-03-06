@@ -1,6 +1,9 @@
 package pl.edu.misztal.OptimalShift.image;
 
 
+import pl.edu.misztal.OptimalShift.image.utils.ColorHelper;
+import pl.edu.misztal.OptimalShift.image.utils.IOHelper;
+
 import java.awt.*;
 import java.awt.image.BufferedImage;
 import java.lang.reflect.InvocationTargetException;

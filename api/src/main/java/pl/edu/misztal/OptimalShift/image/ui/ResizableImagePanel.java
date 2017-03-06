@@ -1,4 +1,4 @@
-package pl.edu.misztal.OptimalShift.image;
+package pl.edu.misztal.OptimalShift.image.ui;
 
 import javax.imageio.ImageIO;
 import javax.swing.*;
